@@ -38,6 +38,7 @@ pipeline{
         stage("Deploy"){
             steps{
                 script{
+                    echo "This is just to see demo"
                     docker_compose()
                 }
             }
