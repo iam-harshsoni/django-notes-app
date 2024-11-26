@@ -1,6 +1,6 @@
 @Library("Shared") _
 pipeline{
-    agent { label "harsh" }
+    agent { label "vinod" }
     
     stages{
         stage("Hello"){
